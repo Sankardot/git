@@ -297,3 +297,36 @@
 # obj.output()
 
 
+
+
+
+
+# encapsulation it is mechanism of wrapping the data and code actionable on the data methods together as
+# a single unit 
+# in this they are 3 types they are 
+
+# public , protected , private
+
+# public : accessible for any one 
+
+# class sankar:
+#     def __init__(self, name , age):
+#         self.name=name
+#         self.age=age
+
+# p = sankar("sai", 34)
+# print(p.name)
+# p.age=88
+# print(p.age) 
+
+# That means:
+
+# ✅ Accessible outside the class
+
+# ✅ Can be modified directly
+# 
+# Public members are variables or methods that can be accessed from anywhere (inside or outside the class).
+
+
+
+#protected: accessible inside of the class and subclass should not be  accesed by out side o
