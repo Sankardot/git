@@ -319,9 +319,7 @@
 # p.age=88
 # print(p.age) 
 
-# That means:
-
-# ✅ Accessible outside the class
+# T Accessible outside the class
 
 # ✅ Can be modified directly
 # 
