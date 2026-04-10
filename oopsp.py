@@ -319,7 +319,7 @@
 # p.age=88
 # print(p.age) 
 
-# T Accessible outside the class
+# Accessible outside the class
 
 # ✅ Can be modified directly
 # 
@@ -327,4 +327,45 @@
 
 
 
-#protected: accessible inside of the class and subclass should not be  accesed by out side o
+#protected: accessible inside of the class and subclass should not be  accesed by out side 
+
+# class Parent:
+#     def _show(self):   # protected method
+#         print("This is Parent class")
+
+# class Child(Parent):
+#     def _show(self):   # overriding (polymorphism)
+#         print("This is Child class")
+
+# obj = Child()
+# obj._show()   # Calls Child version # “I have an object of Child, so first check inside Child class”
+
+# class gfather:
+#     def __init__(self):
+#         print("this is gfather class")
+
+# class father(gfather):
+#     def __init__(self):
+#         print("this is father class")
+# o = father()
+
+
+# private : not directly accesible outside of class
+
+
+# class grandfather():
+#     def __init__(self,a):
+#         self .__y = a
+#         print(self. __y)
+
+# class father(grandfather):
+#     def output1(self):
+#         print(self.__y)
+
+# class child2(father):
+#     def output2(self):
+#         print("child2", self.__y)
+        
+# obj = child2(12)
+# obj.display2()
+# obj.display1()
