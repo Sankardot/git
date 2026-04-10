@@ -369,3 +369,19 @@
 # obj = child2(12)
 # obj.display2()
 # obj.display1()
+
+
+
+# local varible is defined inside the function it only can accesed with in the function
+# it can be created when function starts it can be destroyed when function ends 
+
+
+# def my_fun():
+#     x=10
+#     print("Inside function")
+# my_fun()
+
+
+# global varible: a global varible is defined outside of all fucntion 
+# it can accesed any where i  the program inside or outside function 
+# but is you want the modify the inside the function you must use the globalkeyword
