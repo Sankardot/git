@@ -385,3 +385,4 @@
 # global varible: a global varible is defined outside of all fucntion 
 # it can accesed any where i  the program inside or outside function 
 # but is you want the modify the inside the function you must use the globalkeyword
+hmm
